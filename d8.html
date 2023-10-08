@@ -1,8 +1,15 @@
+
 <!DOCTYPE html>
 <html>
     <head>
-        <title>rj</title>
+        <title>mt</title>
         <meta charset="utf-8">
+        <style>
+            .title{
+                color:green;
+                font-weight: bold;
+            }
+        </style>
     </head>
     <body>
         <h1><a href="index.html">61선곡</a></h1>
@@ -10,7 +17,21 @@
             <h2><li><a href="mt.html">마탄</a></li></h2>
             <h2><li><a href="rj.html">로줄</a></li></h2>
             <h2><li><a href="d8.html">드팔</a></li></h2>
-            안토닌 레오폴트 드보르자크(체코어: Antonín Leopold Dvořák [ˈantoɲiːn ˈlɛopold ˈdvor̝aːk][*], 1841년 9월 8일 ~ 1904년 5월 1일)는 낭만주의 시대에 활동한 체코의 작곡가이다. 여러 작품을 작곡했는데, 특히 관현악과 실내악에서 모국 보헤미아의 민속 음악적 작품성 풍색과 선율을 표현하였다. 베드르지흐 스메타나에 의하여 확립
         </ol>
+        <br>
+        <input type="button" id = "toggle" value="night" onclick="
+        if(document.querySelector('#toggle').value=='night'){
+            document.querySelector('#toggle').value='day';
+            document.querySelector('body').style.color='white';
+            document.querySelector('body').style.backgroundColor='black';
+        }
+        else{
+            document.querySelector('#toggle').value='night';
+            document.querySelector('body').style.color='black';
+            document.querySelector('body').style.backgroundColor='white';
+        }
+        ">
+        <h3> 드8</h3>
+        <span class="title">안토닌 레오폴트 드보르자크</span>안토닌 레오폴트 드보르자크(체코어: Antonín Leopold Dvořák [ˈantoɲiːn ˈlɛopold ˈdvor̝aːk][*], 1841년 9월 8일 ~ 1904년 5월 1일)는 낭만주의 시대에 활동한 체코의 작곡가이다. 여러 작품을 작곡했는데, 특히 관현악과 실내악에서 모국 보헤미아의 민속 음악적 작품성 풍색과 선율을 표현하였다. 베드르지흐 스메타나에 의하여 확립
     </body>
 </html>
