@@ -1,15 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>mt</title>
+        <link rel="stylesheet" href="./style.css">
+        <title>61</title>
         <meta charset="utf-8">
-        <style>
-            .title{
-                color:crimson;
-                font-weight: bold;
-            }
-        </style>
     </head>
+
     <body>
         <h1><a href="index.html">61선곡</a></h1>
         <ol>
@@ -18,19 +14,9 @@
             <h2><li><a href="d8.html">드팔</a></li></h2>
         </ol>
         <br>
-        <input type="button" id = "toggle" value="night" onclick="
-        if(document.querySelector('#toggle').value=='night'){
-            document.querySelector('#toggle').value='day';
-            document.querySelector('body').style.color='white';
-            document.querySelector('body').style.backgroundColor='black';
-        }
-        else{
-            document.querySelector('#toggle').value='night';
-            document.querySelector('body').style.color='black';
-            document.querySelector('body').style.backgroundColor='white';
-        }
-        ">
-        <h3> 마탄의 사수</h3>
+        <input type="button" id = "toggle" value="night" onclick="daynightHandler(this)">
+        <h3> 로줄</h3>
         <span class="title">마탄의 사수</span>(魔彈-射手, 독일어: Der Freischütz, 영어: The Marksman, The Freeshooter)는 요한 프리드리히 킨트의 대본에 기초한 카를 마리아 폰 베버의 3막짜리 오페라다. 이 작품은 첫 번째로 중요한 독일 낭만 오페라로 여겨진다.
+        <script src="func.js"></script>
     </body>
 </html>
